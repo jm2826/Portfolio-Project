@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+	color: red;
+    margin: 0;
+    padding: 5px;
+    background-color: lightblue;    
+}
+
+.header_container {
+    display: block;
+    margin: 30px;
+    height: auto;
+    width: auto;
+}
+
+.logo_container {
+    width: 100%;
+    text-align: left;
+}
+
+.name {
+    width: 100%;
+    text-align: left;    
+}
+
+.logo {
+    max-width: 35vmin;
+    max-height: 35vmin;
+    text-align: center;
+}
+
+.line {
+    border-bottom:  1px solid #000;
+    display: flex;
+    margin: 30px;
+    height: auto;
+}
+
+.portfolio {
+    justify-content: space-between;
+    margin: 30px;
+    height: auto;
+}
+
+.main_pic {
+    height: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.image1 {
+    width: 100%;
+    max-width: 100em;
+    max-height: 100em;
+}
+
+img :last-of-type {
+    margin-right: 0;
+}
+
+.projects {
+    display: block;
+    width: auto;
+    margin: 30px;
+}
+
+.movie, .future1, .future2 {
+    max-width: 30vmin;
+    max-height: 30vmin;
+    width: auto;
+}
+
+footer {
+    text-align: center;
+}
